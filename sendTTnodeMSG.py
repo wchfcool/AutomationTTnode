@@ -370,7 +370,7 @@ now_time_str="\n***\n####[当前时间]"+now_time+"\n"
 msg=now_time_str+nickName+accountScore_str+total_str+withdraw+msg+end
 sendServerJiang(msgTitle,msg)
 print("微信消息已推送。请注意查看。")
-title="[甜糖星愿]"
-content="####"
-#sendServerJiang(title,content)
+title="[甜糖星愿]:停用通知"
+content="####这个版本的容器和源码即将停用，请去新的地址重新部署\n####新版教程地址https://www.right.com.cn/forum/thread-4087719-1-1.html\n####[2021-03-05]更新日志-----------------------------------------------------------\n1.去除server酱消息推送渠道-原因是4月份开始server酱开始收费了，旧版会被停用\n2.新增PlusPlus消息推送渠道\n3.新增TG机器消息推送渠道\n4.镜像重新打包精简镜像体积\n5.镜像以后都上传阿里云仓库，以防各位下载镜像太慢了。"
+sendServerJiang(title,content)
 exit()
